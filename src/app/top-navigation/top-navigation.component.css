@@ -1,0 +1,14 @@
+
+
+.page-links li a{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "verdana";
+}
+
+.logo{
+	color: #20247b;
+	font-weight: bold;
+	font-family: "verdana";
+	font-size: 27px;
+}

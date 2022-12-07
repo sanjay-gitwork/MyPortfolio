@@ -1,0 +1,269 @@
+
+
+
+.section {
+    position: relative;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    color: #20247b;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid #fc5356;
+    padding-left: 15px;
+}
+
+.container{
+    margin-top:50px;
+}
+
+.section-title {
+    margin-bottom: 38px;
+}
+
+.icon-primary {
+    color: #062caf;
+}
+
+.icon-bg-circle {
+    position: relative;
+}
+
+.icon-lg {
+    font-size: 50px;
+} 
+
+.icon-bg-circle::before {
+    z-index: 1;
+    position: relative;
+}
+
+.icon-bg-primary::after {
+    background: #062caf !important;
+}
+
+.icon-bg-circle::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -35px;
+    left: 15px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: .1;
+} 
+
+p, .paragraph {
+    font-weight: 400;
+    color: #8b8e93;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif;
+}
+
+.icon-bg-yellow::after {
+    background: #f6a622 !important; 
+}
+.icon-bg-purple::after {
+    background: #7952f5;
+}
+
+.icon-yellow {
+    color: #f6a622;
+}
+
+
+
+.icon-purple {
+    color: #7952f5;
+}
+
+
+.icon-cyan {
+    color: #02d0a1;
+}
+
+.icon-bg-cyan::after {
+    background: #02d0a1;
+}
+
+.icon-bg-red::after {
+    background: #ff4949;
+}
+
+.icon-red {
+    color: #ff4949;
+}
+
+.icon-bg-green::after {
+    background: #66cc33;
+}
+
+.icon-green {
+    color: #66cc33;
+}
+
+.icon-bg-orange::after {
+    background: #ff7c17;
+}
+
+.icon-orange {
+    color: #ff7c17;
+}
+
+.icon-bg-blue::after {
+    background: #3682ff;
+}
+
+.icon-blue {
+    color: #3682ff;
+}
+
+
+.about-image{
+    height: 100%;
+    width: 100%;
+}
+
+.about-me-card{
+    padding: 70px 30px 30px 30px;
+}
+
+.hello{
+  font-size: 47px;
+  color: #20247b;;
+}
+
+.my-name{
+  font-size: 22px;
+}
+
+.position{
+ margin-top: -20px; 
+ font-size: 38px;
+}
+
+
+.contact-button > span {
+  border-style: 1px solid red;
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 10px 10px 10px;
+  padding: 5px 10px 5px 10px;
+  font-style: "verdana";
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .icon{
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+
+
+.custom-icon{
+  margin-left: 16px;
+}
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
