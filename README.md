@@ -1,27 +1,25 @@
 # MyAngular
+![Alt text](src/assets/image/tech/home.PNG)
+    
+# Software Developer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
+Welcome to my Software Developer Portfolio! This site serves as a showcase of my journey, skills, and accomplishments as a software developer. Here, you'll find a collection of important tools, notable projects, insights into my background, skills, and ways to get in touch with me.
 
-## Development server
+## Key Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- **Projects Showcase:** Explore a diverse range of projects I've worked on, each highlighting different aspects of my coding expertise. From web applications to mobile solutions, there's a variety to explore.
 
-## Code scaffolding
+- **Highlighted Tools:** Discover the key tools and technologies that are an integral part of my development workflow. These tools play a crucial role in shaping the quality and efficiency of my work.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **About Me:** Learn more about the developer behind the code. Dive into my background, interests, and the journey that led me to the world of software development.
 
-## Build
+- **Skills:** Get insights into the skills I've developed over the years. From programming languages to problem-solving, my skill set is tailored to create effective and elegant solutions.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Contact Information:** Interested in collaboration, job opportunities, or just want to say hello? Find all the ways to reach out to me in the Contact section.
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To explore my portfolio, simply visit [portfolio-url](#). There, you'll find detailed information about my projects, skills, and more. Feel free to reach out if you have any questions or if you're interested in connecting.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+I'm excited to share my journey as a software developer with you. Explore, learn, and connect!

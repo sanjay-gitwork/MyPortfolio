@@ -128,11 +128,11 @@ p, .paragraph {
 }
 
 .about-me-card{
-    padding: 70px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
 }
 
 .hello{
-  font-size: 47px;
+  font-size: 45px;
   color: #20247b;;
 }
 
@@ -142,7 +142,7 @@ p, .paragraph {
 
 .position{
  margin-top: -20px; 
- font-size: 38px;
+ /* font-size: 38px; */
 }
 
 
@@ -152,9 +152,10 @@ p, .paragraph {
   background-color: #ffffff;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   margin: 10px 10px 10px 10px;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 10px 10px 10px;
   font-style: "verdana";
   text-decoration: none;
+  border-radius: 5px;;
 }
 
 
